@@ -1,0 +1,19 @@
+@media (min-width: 1200px) {
+    .col-mt-2-socal {
+        color: #fff
+    }
+    .col-mt-2-socal:hover {
+        color: #9c9c9c
+    }
+    .main_menu {
+        color: #fff;
+        text-align: left
+    }
+    .style1 {
+        max-width: 1180px
+    }
+    .style2 {
+        overflow: hidden;
+        max-width: 1180px
+    }
+}

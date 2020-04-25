@@ -2,6 +2,8 @@
 <html>
 
 <head>
+	<base href="/">
+	<script src="dmxAppConnect/dmxAppConnect.js"></script>
 	<meta charset="UTF-8">
 	<title>Arthrosurface</title>
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
@@ -9,17 +11,100 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css" integrity="sha384-REHJTs1r2ErKBuJB0fCK99gCYsVjwxHrSU0N7I1zl9vZbggVJXRMsv/sLlOAGb4M" crossorigin="anonymous" />
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
 	<link rel="stylesheet" href="custom_style.css" />
+	<script src="dmxAppConnect/dmxBootstrap4Navigation/dmxBootstrap4Navigation.js" defer=""></script>
+	<link rel="stylesheet" href="custom_style,css" />
 </head>
 
-<body>
+<body is="dmx-app" id="index">
+
+
 	<header class="main_header container-fluid">
-		<div class="container">
-			<nav>
-				<img src="images/logo-white-new.png" width="104px">
-			</nav>
+
+		<div class="container text-light style2">
+			<div class="row">
+				<div class="col text-light"></div>
+				<div class="col"></div>
+				<div class="col">
+				</div>
+				<div class="col mt-2 socal text-xl-right">
+					<a href="#" class="socal"><i class="fab fa-facebook-square col-mt-2-socal fa-lg"></i></a>
+					<a href="#" class="socal"><i class="fab fa-twitter col-mt-2-socal fa-lg"></i></a>
+					<a href="#" class="socal"><i class="fab fa-linkedin col-mt-2-socal fa-lg"></i></a>
+					<a href="#" class="socal"><i class="fab fa-youtube col-mt-2-socal fa-lg"></i></a>
+					<a href="#" class="socal"><i class="fab fa-pinterest col-mt-2-socal fa-lg"></i></a>
+					<a href="#" class="socal"><i class="fab fa-instagram col-mt-2-socal fa-lg"></i></a>
+				</div>
+			</div>
+		</div>
+		<div class="container style1">
+			<div class="row">
+				<div class="col-xl-2"><img src="images/logo-white-new.png" width="169px" class="mb-xl-2"></div>
+				<div class="col col-xl align-self-xl-end">
+					<nav class="style1">
+
+						<div class="nav align-items-xl-end main_menu">
+							<a class="nav-item nav-link" href="#">Patients</a>
+							<a class="nav-item nav-link" href="#">Medical Professionals</a>
+							<a class="nav-item nav-link" href="#">Patients</a>
+							<a class="nav-item nav-link" href="#">Patients</a>
+							<a class="nav-item nav-link" href="#">Patients</a>
+							<a class="nav-item nav-link" href="#">Patients</a>
+						</div>
+					</nav>
+				</div>
+			</div>
 		</div>
 
 	</header>
+	<main>
+
+		<div class="container">
+			<h1 class="text-xl-center mt-xl-2">Joint Replacement Solutions for Active Patients
+			</h1>
+			<div class="row">
+				<div class="col-lg-2">
+					<div class="slice_single">
+						<a href="https://www.arthrosurface.com/shoulder-solutions/" class="slice_link">SHOULDER <span class="slice-arrow-right"></span></a>
+						<a class="image_container" href="https://www.arthrosurface.com/shoulder-solutions/"><img src="https://www.arthrosurface.com/wp-content/uploads/2017/02/shoulder-photo.jpg" class="front-page-hover"></a>
+					</div>
+				</div>
+				<div class="col-lg-2">
+					<div class="slice_single">
+						<a href="https://www.arthrosurface.com/shoulder-solutions/" class="slice_link">SHOULDER <span class="slice-arrow-right"></span></a>
+						<a class="image_container" href="https://www.arthrosurface.com/shoulder-solutions/"><img src="https://www.arthrosurface.com/wp-content/uploads/2017/02/shoulder-photo.jpg" class="front-page-hover"></a>
+					</div>
+				</div>
+				<div class="col-lg-2">
+					<div class="slice_single">
+						<a href="https://www.arthrosurface.com/shoulder-solutions/" class="slice_link">SHOULDER <span class="slice-arrow-right"></span></a>
+						<a class="image_container" href="https://www.arthrosurface.com/shoulder-solutions/"><img src="https://www.arthrosurface.com/wp-content/uploads/2017/02/shoulder-photo.jpg" class="front-page-hover"></a>
+					</div>
+				</div>
+				<div class="col-lg-2">
+					<div class="slice_single">
+						<a href="https://www.arthrosurface.com/shoulder-solutions/" class="slice_link">SHOULDER <span class="slice-arrow-right"></span></a>
+						<a class="image_container" href="https://www.arthrosurface.com/shoulder-solutions/"><img src="https://www.arthrosurface.com/wp-content/uploads/2017/02/shoulder-photo.jpg" class="front-page-hover"></a>
+					</div>
+				</div>
+				<div class="col-lg-2">
+					<div class="slice_single">
+						<a href="https://www.arthrosurface.com/shoulder-solutions/" class="slice_link">SHOULDER <span class="slice-arrow-right"></span></a>
+						<a class="image_container" href="https://www.arthrosurface.com/shoulder-solutions/"><img src="https://www.arthrosurface.com/wp-content/uploads/2017/02/shoulder-photo.jpg" class="front-page-hover"></a>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col col-xl">
+					<button id="btn1" class="btn">Button</button>
+				</div>
+				<div class="col col-xl"></div>
+				<div class="col col-xl"></div>
+				<div class="col col-xl"></div>
+			</div>
+		</div>
+
+	</main>
+	<footer></footer>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
